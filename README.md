@@ -1,19 +1,83 @@
-# Getting Started
-Install the dependencies and run the project
+# Twitter Clone (Interactive Feed)
+
+A simple Twitter-style feed built with **vanilla JavaScript**, HTML, and CSS.  
+Users can like tweets, retweet them, reply, and post new tweets — all handled dynamically with JavaScript.
+
+This project was built as part of the **Scrimba Frontend Path** to practice DOM manipulation, event handling, and working with data structures.
+
+---
+
+## 🚀 Features
+
+- Like and unlike tweets
+- Retweet and un-retweet tweets
+- Reply to tweets
+- Create and post new tweets
+- Dynamic rendering using JavaScript
+- Unique tweet IDs generated with UUID
+- Clean and responsive UI
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── index.html
+├── index.css
+├── index.js
+├── data.js
+├── package.json
+└── README.md
 ```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+---
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## ▶️ How to Run
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
 
-Happy Coding!
+2. Navigate into the project folder:
+   ```bash
+   cd twitter-clone
+   ```
+
+3. Open `index.html` in your browser  
+   **or** use a local server (recommended):
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+---
+
+## 🎯 What I Learned
+
+- Handling user interactions with event listeners
+- Updating UI dynamically based on state changes
+- Working with arrays of objects
+- Using UUIDs to manage unique data entries
+- Writing clean, readable JavaScript
+
+---
+
+## 📸 Preview
+
+*(Add a screenshot or GIF here)*
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
